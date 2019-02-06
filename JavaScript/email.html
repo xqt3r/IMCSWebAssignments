@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var str = "Jack@IMCScom@";
+    var index = str.indexOf("@");
+    var lastIndex = str.lastIndexOf("@");
+    if (index !== lastIndex){
+        alert("there are multiple instances of @");
+    }
+    var index2 = str.indexOf(".");
+    if (index2 === -1) {
+        alert(". is not present in your email")
+    }
+</script>
+</body>
+</html>

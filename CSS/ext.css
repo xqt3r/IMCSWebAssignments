@@ -1,0 +1,23 @@
+h2{
+	color: red;
+	text-align: center;
+}
+
+.second{
+	color: green;
+	background-color: blue;
+}
+
+.first{
+	color: orange;
+	background-color: green;
+}
+
+.heading{
+	color: black;
+	background-color: orange
+}
+
+table{
+	border: 2px;
+}

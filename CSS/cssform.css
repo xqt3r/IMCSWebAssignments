@@ -1,0 +1,30 @@
+
+h2,h4{
+	color: brown;
+}
+
+.col1{
+	color: blue;
+}
+
+.col2{
+	color: red;
+}
+
+input, select.option{
+	color: red;
+}
+
+.transfer{
+	font-size: 20px;
+}
+
+input[type=submit]{
+	width: 200px;
+	height: 50px;
+	font-size: 40px;
+}
+table{
+	border: dotted;
+	border-color: brown;
+}

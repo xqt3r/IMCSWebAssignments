@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var array = new Array(1,2,34,545,2342,234);
+    for (var i=0; i<array.length;i++){
+        document.write(array[i]);
+        document.write("<br>")
+    }
+    document.write("<br>")
+    var arrayReverse = array.reverse();
+    for (var i=0; i<array.length;i++){
+        document.write(arrayReverse[i]);
+        document.write("<br>");
+    }
+
+
+    function bigSmall(array) {
+        document.write("the largest value is " + Math.max.apply(Math, array));
+        document.write("<br>");
+        document.write("the smallest value is " + Math.min.apply(Math, array));
+    }
+
+    bigSmall(array);
+
+</script>
+
+</body>
+</html>

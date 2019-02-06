@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form name="form1">
+    Number 1: <input type="number" name="num1">
+    <br>
+    Number 2: <input type="number" name="num2">
+    <br>
+    Result : <input type="number" name="result">
+    <br>
+    <input type="button" onclick="add()" value="add">
+    <input type="button" onclick="sub()" value="sub">
+    <input type="button" onclick="mul()" value="mul">
+    <input type="button" onclick="div()" value="div">
+
+</form>
+
+<script>
+    function add() {
+        var result = parseInt(document.form1.num1.value) + parseInt(document.form1.num2.value);
+        document.form1.result.value = result;
+    }
+    function sub() {
+        var result = parseInt(document.form1.num1.value) - parseInt(document.form1.num2.value);
+        document.form1.result.value = result;
+    }
+    function mul() {
+        var result = parseInt(document.form1.num1.value) * parseInt(document.form1.num2.value);
+        document.form1.result.value = result;
+    }
+    function div() {
+        var result = parseInt(document.form1.num1.value) / parseInt(document.form1.num2.value);
+        document.form1.result.value = result;
+    }
+</script>
+
+</body>
+</html>
